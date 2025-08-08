@@ -1,16 +1,16 @@
 import React from "react";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/logo.png";
 import { FaSearch } from "react-icons/fa";
 import { GoHeartFill } from "react-icons/go";
 import { HiShoppingBag } from "react-icons/hi2";
-import Wishlist from "../Wishlist/Wishlist";
+// import Wishlist from "../Wishlist/Wishlist";
 function Navbar({
   handleScroll,
   setSearchTerm,
   isScrolled,
   handlePanel,
   totalItems,
-  wishlist
+  wishlist,
 }) {
   return (
     <header
@@ -48,12 +48,11 @@ function Navbar({
             onClick={() => handlePanel("wishlist")}
           >
             <GoHeartFill />
-            {
-              wishlist.length > 0 &&
+            {wishlist.length > 0 && (
               <span className="flex justify-center items-center bg-red-600 text-white w-5 h-5 rounded-full text-[14px] absolute top-4 right-3 border-2 border-white">
-              {wishlist.length}
-            </span>
-            }
+                {wishlist.length}
+              </span>
+            )}
           </button>
           <button
             className="text-[1.7rem] text-zinc-800 relative cursor-pointer"

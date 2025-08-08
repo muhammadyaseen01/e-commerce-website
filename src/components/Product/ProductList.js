@@ -1,15 +1,15 @@
-import Jeans from '../../assets/Jeans.png'
-import Hoodie from '../../assets/hoodie.png'
-import LeatherJacket from '../../assets/leather-jacket.png'
-import Skirt from '../../assets/skirt.png'
-import TShirt from '../../assets/tshirt.png'
-import Sleepsuit from '../../assets/sleepsuit.png'
-import Shirt from '../../assets/shirt.png'
-import Dress from '../../assets/dress.png'
-import Skater from '../../assets/skater.png'
-import Sweater from '../../assets/sweater.png'
-import BabyShirt from '../../assets/baby-shirt.png'
-import ShirtDress from '../../assets/shirt-dress.png'
+import Jeans from "../../assets/jeans.png";
+import Hoodie from "../../assets/hoodie.png";
+import LeatherJacket from "../../assets/leather-jacket.png";
+import Skirt from "../../assets/skirt.png";
+import TShirt from "../../assets/tshirt.png";
+import Sleepsuit from "../../assets/sleepsuit.png";
+import Shirt from "../../assets/shirt.png";
+import Dress from "../../assets/dress.png";
+import Skater from "../../assets/skater.png";
+import Sweater from "../../assets/sweater.png";
+import BabyShirt from "../../assets/baby-shirt.png";
+import ShirtDress from "../../assets/shirt-dress.png";
 
 const products = [
   {
@@ -20,17 +20,17 @@ const products = [
     oldPrice: 25.99,
     onSale: true,
     newArrival: false,
-    category: "Men"
+    category: "Men",
   },
   {
     id: 2,
     name: "Slim Fit Jeans",
     image: Jeans,
-    price: 45.00,
+    price: 45.0,
     oldPrice: null,
     onSale: false,
     newArrival: true,
-    category: "Men"
+    category: "Men",
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ const products = [
     oldPrice: 129.99,
     onSale: false,
     newArrival: false,
-    category: "Men"
+    category: "Men",
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ const products = [
     oldPrice: 59.99,
     onSale: true,
     newArrival: false,
-    category: "Women"
+    category: "Women",
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ const products = [
     oldPrice: null,
     onSale: false,
     newArrival: false,
-    category: "Kids"
+    category: "Kids",
   },
   {
     id: 6,
@@ -70,27 +70,27 @@ const products = [
     oldPrice: null,
     onSale: false,
     newArrival: false,
-    category: "Men"
+    category: "Men",
   },
   {
     id: 7,
     name: "Floral Dress",
     image: Dress,
-    price: 120.00,
+    price: 120.0,
     oldPrice: null,
     onSale: false,
     newArrival: true,
-    category: "Kids"
+    category: "Kids",
   },
   {
     id: 8,
     name: "Stripes Sweater",
     image: Sweater,
-    price: 65.00,
-    oldPrice: 85.00,
+    price: 65.0,
+    oldPrice: 85.0,
     onSale: true,
     newArrival: false,
-    category: "Kids"
+    category: "Kids",
   },
   {
     id: 9,
@@ -100,38 +100,38 @@ const products = [
     oldPrice: 20.99,
     onSale: false,
     newArrival: true,
-    category: "Women"
+    category: "Women",
   },
   {
     id: 10,
     name: "Baby Shirt",
     image: BabyShirt,
-    price: 22.00,
+    price: 22.0,
     oldPrice: null,
     onSale: false,
     newArrival: true,
-    category: "Kids"
+    category: "Kids",
   },
   {
     id: 11,
     name: "Hoodie",
     image: Hoodie,
-    price: 35.00,
-    oldPrice: 45.00,
+    price: 35.0,
+    oldPrice: 45.0,
     onSale: true,
     newArrival: false,
-    category: "Men"
+    category: "Men",
   },
   {
     id: 12,
     name: "Full Sleeve Shirt",
     image: ShirtDress,
-    price: 10.00,
-    oldPrice: 18.00,
+    price: 10.0,
+    oldPrice: 18.0,
     onSale: true,
     newArrival: false,
-    category: "Women"
+    category: "Women",
   },
-]
+];
 
 export default products;
